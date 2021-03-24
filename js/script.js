@@ -294,23 +294,31 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     function funLeftGM(EO){
         EO=EO||window.event;
-        if(move!=='right')
+        if(move!=='right'){
         move='left';
+        snakeHead.src = 'image/snakeHeadLeft.svg';
+        }
     }
     function funUpGM(EO){
         EO=EO||window.event;
-        if(move!=='down')
+        if(move!=='down'){
         move='up';
+        snakeHead.src = 'image/snakeHeadUp.svg';
+        }
     }
     function funRightGM(EO){
         EO=EO||window.event;
-        if(move!=='left')
+        if(move!=='left'){
         move='right';
+        snakeHead.src = 'image/snakeHeadRight.svg';
+        }
     }
     function funDownGM(EO){
         EO=EO||window.event;
-        if(move!=='up')
+        if(move!=='up'){
         move='down';
+        snakeHead.src = 'image/snakeHeadDown.svg';
+        }
     }
   
     var milsec = 50;
