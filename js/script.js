@@ -303,7 +303,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         EO=EO||window.event;
         if(move!=='down'){
         move='up';
-        snakeHead.src = 'image/snakeHeadUp.svg';
+        snakeHead.src = 'image/snakeHead.svg';
         }
     }
     function funRightGM(EO){
